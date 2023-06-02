@@ -19,6 +19,11 @@ run.py 需要配置的参数是 cluster_search（是否搜索聚类参数）和 
 3. get_cluster 产出书籍归类明细及每个cluster的中心点 index；
 4. move_files 将书籍按照 cluster 的结果进行移动；
 
+# 待解决问题
+1. 可能存才本地电子书的pdf 和 epub 解析不出来的情况。为了解决这个问题，做了[基于文件标题的聚类脚本](https://github.com/TerrenceVarada/Library-by-Title)；
+2. M1 计算 embedding 的速度比较慢，可以找 GPU 去生成embedding;
+
+
 # Reference
 
 1. [5 Levels Of Summarization - Novice To Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
